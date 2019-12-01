@@ -1,0 +1,32 @@
+.tabs {
+    width: 400px;
+    margin: 30px auto;
+ }
+ 
+ .tabs-header {
+    display: flex;
+ }
+ 
+ .tabs-header__item {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    margin-right: 3px;
+    cursor: pointer;
+ }
+ 
+ .tabs-header__item.active {
+    border-color: red;
+ }
+ 
+ .tabs-content {
+ }
+ 
+ .tabs-content__item {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 30px;
+ }
+ 
+ .tabs-content__item.active {
+    display: block;
+ }

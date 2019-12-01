@@ -10,7 +10,7 @@ $(document).ready(function() {
 
     $('.button').on('click', function(evt) {
         var buttonPressed = $(this).html();
-        console.log(buttonPressed); //! -Need to be Deactivate!!!
+        // console.log(buttonPressed); //! -Need to be Deactivate!!!
 
         if (buttonPressed === "C") {
             result = 0;
@@ -56,7 +56,7 @@ isOperator = function(value) {
 operate =  function(a, b, operation) {
     a = parseFloat(a);
     b = parseFloat(b);
-    console.log(a, b, operation) //! Need to be deactivate
+    // console.log(a, b, operation) //! Need to be deactivate
     if (operation === '+') return a + b;
     if (operation === '-') return a - b;
     if (operation === '*') return a * b;
